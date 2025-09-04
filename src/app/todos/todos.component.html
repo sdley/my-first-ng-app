@@ -1,1 +1,6 @@
-<p>todos works!</p>
+@for (todo of todoItems(); track todo.id) {
+<div>
+  <h3>{{ todo.title }}</h3>
+  <p>Completed: {{ todo.completed }}</p>
+</div>
+}
