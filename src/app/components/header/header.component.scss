@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  padding-inline: 16px;
+  padding-block: 8px;
+  background-color: #333;
+  color: white;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
